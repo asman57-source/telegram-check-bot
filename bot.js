@@ -2,9 +2,9 @@ const TelegramBot = require('node-telegram-bot-api');
 const { GoogleSpreadsheet } = require('google-spreadsheet');
 
 // تنظیمات اولیه
-const token = 'YOUR_BALE_BOT_TOKEN'; // اینجا توکن ربات بله را قرار بده
+const token = 'YOUR_BALE_BOT_TOKEN'; //1802630088:xPfx0PrUE_OUIB61U-CyQSIVtCVMf8XypoM
 const bot = new TelegramBot(token, { polling: true });
-const SHEET_ID = 'YOUR_GOOGLE_SHEET_ID'; // اینجا ID فایل Sheets را قرار بده
+const SHEET_ID = '1nYXoRIfuGsP13M51EU3TygqAG_VkyQXeNBGAoY8mDec'; // اینجا ID فایل Sheets را قرار بده
 
 // دستورات ربات
 bot.onText(/\/start/, (msg) => {
